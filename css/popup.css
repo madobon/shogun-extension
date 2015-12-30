@@ -1,0 +1,65 @@
+#app {
+    width: 510px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+#info {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#info-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(18, 255, 0);
+}
+
+#info-message {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+#info-price {
+    font-size: 1.5em;
+}
+
+#info {
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#info-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    border-bottom-style: ridge;
+}
+
+#info-message {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+#info-price {
+    font-size: 1.5em;
+}
+
+ul {
+    display: inline-block;
+    overflow: hidden;
+    list-style: none;
+}
+
+li {
+    float: left;
+    height: 220px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+dt {
+    width: 150px;
+    margin: auto;
+}
